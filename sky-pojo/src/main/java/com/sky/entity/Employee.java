@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Employee implements Serializable {
+public class Employee implements Serializable {//implements Serializable代表可序列化，用于在对象之间传递时保持状态不变
 
     private static final long serialVersionUID = 1L;
 
