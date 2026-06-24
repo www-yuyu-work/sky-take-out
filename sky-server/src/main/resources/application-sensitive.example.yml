@@ -1,0 +1,19 @@
+# 敏感配置文件模板
+# 使用方法：复制此文件为 application-sensitive.yml，填入真实值
+# cp application-sensitive.example.yml application-sensitive.yml
+
+spring:
+  redis:
+    password: your-redis-password
+
+sky:
+  jwt:
+    admin-secret-key: your-admin-jwt-secret
+    user-secret-key: your-user-jwt-secret
+  datasource:
+    password: your-database-password
+  alioss:
+    access-key-id: your-alioss-access-key-id
+    access-key-secret: your-alioss-access-key-secret
+  wechat:
+    secret: your-wechat-app-secret
