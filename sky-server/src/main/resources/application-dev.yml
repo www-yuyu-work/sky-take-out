@@ -21,5 +21,3 @@ sky:
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
     bucket-name: yuy-sky-takeout-dev
-  wechat:
-    appid: wxdf7754ad4cdb8888
