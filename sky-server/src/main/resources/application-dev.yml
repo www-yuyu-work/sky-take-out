@@ -1,3 +1,16 @@
+spring:
+  profiles:
+    include: sensitive
+  redis:
+    host: 192.168.190.128
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
+
 sky:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -5,15 +18,8 @@ sky:
     port: 3306
     database: sky_take_out
     username: root
-    password: your-db-password
-spring:
-  redis:
-    host: 192.168.190.128
-    port: 6379
-    password: your-redis-password
-    lettuce:
-      pool:
-        max-active: 10
-        max-idle: 10
-        min-idle: 1
-        time-between-eviction-runs: 10s
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    bucket-name: yuy-sky-takeout-dev
+  wechat:
+    appid: wxdf7754ad4cdb8888

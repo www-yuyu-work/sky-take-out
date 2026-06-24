@@ -4,3 +4,5 @@
 *.class
 *Test.java
 **/test/
+# 敏感配置文件（包含真实密钥/密码，不可提交）
+application-sensitive.yml
