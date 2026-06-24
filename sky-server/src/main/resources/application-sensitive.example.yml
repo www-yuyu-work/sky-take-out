@@ -16,4 +16,5 @@ sky:
     access-key-id: your-alioss-access-key-id
     access-key-secret: your-alioss-access-key-secret
   wechat:
+    appid: your-wechat-appid
     secret: your-wechat-app-secret
